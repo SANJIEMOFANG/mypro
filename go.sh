@@ -572,8 +572,8 @@ shadowsocks_password_config() {
 
 	while :; do
 		echo -e "请输入 "$yellow"Shadowsocks"$none" 密码"
-		read -p "$(echo -e "(默认密码: ${cyan}233blog.com$none)"): " sspass
-		[ -z "$sspass" ] && sspass="233blog.com"
+		read -p "$(echo -e "(默认密码: ${cyan}nuist$none)"): " sspass
+		[ -z "$sspass" ] && sspass="nuist"
 		case $sspass in
 		*[/$]*)
 			echo
@@ -1017,7 +1017,7 @@ uninstall() {
 		echo -e "
 		$red 大胸弟...你貌似毛有安装 V2Ray ....卸载个鸡鸡哦...$none
 
-		备注...仅支持卸载使用我 (233v2.com) 提供的 V2Ray 一键安装脚本
+		备注...仅支持卸载使用我 提供的 V2Ray 一键安装脚本
 		" && exit 1
 	fi
 
@@ -1051,7 +1051,7 @@ esac
 clear
 while :; do
 	echo
-	echo "........... V2Ray 一键安装脚本 & 管理脚本 by 233v2.com .........."
+	echo "........... V2Ray 一键安装脚本 & 管理脚本 by SANJIEMOFANG .........."
 	echo
 	echo "帮助说明: https://233v2.com/post/1/"
 	echo
