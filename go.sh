@@ -97,6 +97,7 @@ ciphers=(
 	aes-128-gcm
 	aes-256-gcm
 	chacha20-ietf-poly1305
+	rc4-md5
 )
 
 _load() {
