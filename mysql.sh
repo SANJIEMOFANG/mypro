@@ -6,3 +6,4 @@ sudo yum install mysql-community-server
 sudo systemctl enable mysqld
 sudo systemctl start mysqld
 sudo systemctl status mysqld
+grep 'temporary password' /var/log/mysqld.log
