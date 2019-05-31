@@ -15,7 +15,6 @@ echo "mysql user exists"
 fi
 
 echo "-------------------------------downloading mysql----------------------------------"
-wget http://dev.mysql.com/get/Downloads/MySQL-5.5/mysql-5.5.46.tar.gz 
 
 echo "------------------------------unpackaging mysql -----------------------------------"
 tar -xvf mysql-5.5.46.tar.gz 
